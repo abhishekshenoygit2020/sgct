@@ -1,0 +1,149 @@
+  .aboutHome {
+  height: auto;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutHome .right {
+  padding: 80px 50px;
+}
+.aboutHome .carousel-inner {
+  margin-top: 50px;
+  border:1px solid black;
+}
+.aboutHome .item {
+  background-color: #fff;
+  /* margin-top: 30px; */
+  padding: 20px;
+  transition: 0.5s;
+}
+.aboutHome .items {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+  border:1px solid #c39b42;
+}
+.aboutHome .img {
+  width: 200px;
+}
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+.aboutHome .items h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.aboutHome .items p {
+  color: #0d0b0b;
+  font-size: 2.5vh;
+  font-family: sans-serif;
+  text-align: left;
+}
+/* .aboutHome .item:hover {
+  background-color: #c39b42;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+} */
+
+/* .aboutHome .items:hover {
+  background-color: #c39b42;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+} */
+/* .aboutHome .items:hover p{
+  color: #fff;
+} */
+/*----------awrapper------------*/
+.awrapper {
+  background-image: url("../../../public/images/charitabletrust/Website/pic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+}
+.awrapper .box {
+  padding: 70px 0;
+}
+.awrapper img {
+  margin-right: 30px;
+}
+.awrapper h1 {
+  font-size: 50px;
+}
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.belowText h1, h3 {
+  font-size: 5vh; 
+}
+
+
+/*----------awrapper------------*/
+@media screen and (max-width: 768px) {
+  .aboutHome .containers {
+    flex-direction: column;
+  }
+  .aboutHome .containers .carou{
+    margin-top: -5px;
+    margin-bottom: 51px;
+  }
+  .aboutHome .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 50vh;
+  }
+  .aboutHome .right {
+      padding: 0px 0px;
+  }
+  .belowText h1, h3 {
+   display: block;
+  }
+
+  .aboutHome .items {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 0px;
+    transition: 0.5s;
+    text-align: justify;
+    border: 1px solid #c39b42;
+  }
+
+  .aboutHome .items p {
+    color: #0d0b0b;
+  font-size: 2.5vh;
+  font-family: sans-serif;
+    padding: 10px;
+  }
+
+
+
+  
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.scholarList{
+  overflow-x:auto;
+}

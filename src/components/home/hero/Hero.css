@@ -1,0 +1,155 @@
+.hero {
+  background-image: url("../../../../public/images/charitabletrust/Website/IMG_650511.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  background-position: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  /*padding-right: 50px;*/
+  color: #fff;
+}
+.primary-btn{
+  color:black;
+  background-color: #c39b42;
+}
+.ViewMore{
+  color:black;
+}
+#whiteLabel{
+  margin-top:350px;
+}
+
+
+.headerPrimaryText{
+    /* font-family: Courier New; */
+    color:black;
+    /*font-size: 4.0vh; */
+    font-weight: 5000;   
+    font-family: bold;  
+    
+}
+
+.headerText{
+  font-weight: 5000;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  font-size: 3.6vh; 
+  text-transform: uppercase;
+  font-family: 'Roboto';
+    /* text-shadow: 1px 1px #040404, 
+                 2px 2px #040404, 
+                 3px 3px #040404;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition:    all 0.12s ease-out;
+    -ms-transition:     all 0.12s ease-out;
+    -o-transition:      all 0.12s ease-out;     */
+   margin-top: -60px;
+}
+
+.hero #heading h3 {
+    /* font: bold Helvetica, Arial; */
+    /* font-family: Courier New; */
+    color:black;
+    font-size: 4.6vh; 
+    font-weight: 2000;  
+    text-shadow: 1px 1px #040404, 
+                 2px 2px #040404, 
+                 3px 3px #040404;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition:    all 0.12s ease-out;
+    -ms-transition:     all 0.12s ease-out;
+    -o-transition:      all 0.12s ease-out;  
+}
+
+.hero #heading p {
+  color: black;
+  font-size: 8.6vh;   
+  
+}
+
+.hero #heading h1 {
+  color: white;
+  font-size: 6vh;
+  
+    /* font: bold 25vh Helvetica, Arial, Sans-Serif;
+    font-family: Freestyle Script;
+    text-shadow: 1px 1px #fe4902, 
+                 2px 2px #fe4902, 
+                 3px 3px #fe4902;
+                 
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition:    all 0.12s ease-out;
+    -ms-transition:     all 0.12s ease-out;
+    -o-transition:      all 0.12s ease-out; */
+}
+
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.mobileText{
+  display:none;
+}
+.desktopText{
+  display:block;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+
+  .hero #heading h1 {
+    color: white;
+    font-size: 2vh;
+  }
+
+  .hero #heading h3,p {
+    color: #040404;
+    font-size: 2.0vh;
+  }
+
+  .headerText{
+    font-weight: 5000;
+    letter-spacing: 1px;
+    color: #1eb2a6;
+    font-size: 2.6vh; 
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: italic;
+      /* text-shadow: 1px 1px #040404, 
+                  2px 2px #040404, 
+                  3px 3px #040404;
+      -webkit-transition: all 0.12s ease-out;
+      -moz-transition:    all 0.12s ease-out;
+      -ms-transition:     all 0.12s ease-out;
+      -o-transition:      all 0.12s ease-out;     */
+    margin-top: -10px;
+ }
+
+ .mobileText{
+    display:block;
+ }
+ .desktopText{
+    display:none;
+ }
+
+ #whiteLabel{
+  margin-top:374px;
+}
+ 
+}

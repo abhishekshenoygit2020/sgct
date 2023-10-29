@@ -1,0 +1,15 @@
+.LogoImgContainer{
+    background-color: red;
+    border-radius: 50px;
+}
+
+.LogoImgContainers{
+    background-color: white;
+}
+
+
+
+.imgLogo{
+    height:75px;
+    width:75px;
+}
